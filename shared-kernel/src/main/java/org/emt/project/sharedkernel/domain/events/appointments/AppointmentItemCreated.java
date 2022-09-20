@@ -7,16 +7,16 @@ import org.emt.project.sharedkernel.domain.events.DomainEvent;
 @Getter
 public class AppointmentItemCreated extends DomainEvent {
 
-    private String productId;
+    private String petId;
     private int quantity;
 
     public AppointmentItemCreated(String topic) {
         super(TopicHolder.TOPIC_APPOINTMENT_ITEM_CREATED);
     }
 
-    public AppointmentItemCreated(String productId, int quantity) {
+    public AppointmentItemCreated(String petId, int quantity) {
         super(TopicHolder.TOPIC_APPOINTMENT_ITEM_CREATED);
-        this.productId = productId;
+        this.petId = petId;
         this.quantity = quantity;
     }
 }

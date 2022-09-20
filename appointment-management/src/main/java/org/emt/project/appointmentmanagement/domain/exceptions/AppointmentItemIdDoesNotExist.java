@@ -1,4 +1,4 @@
 package org.emt.project.appointmentmanagement.domain.exceptions;
 
-public class AppointmentItemIdDoesNotExist {
+public class AppointmentItemIdDoesNotExist extends RuntimeException {
 }

@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shared-kernel" />
-        <module name="appointment-management" />
         <module name="pet-catalog" />
+        <module name="appointment-management" />
       </profile>
     </annotationProcessing>
   </component>
